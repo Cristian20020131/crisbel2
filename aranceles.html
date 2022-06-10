@@ -3,6 +3,18 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
 body {
   font-family: "Lato", sans-serif;
 }
@@ -58,6 +70,29 @@ body {
 </div>
 
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Aranceles</span>
+
+<table>
+  <tr>
+    <th>Trabajo</th>
+    <th>Tiempo</th>
+    <th>Precio</th>
+  </tr>
+  <tr>
+    <td>Arreglo cierre</td>
+    <td>1 día</td>
+    <td>$250</td>
+  </tr>
+  <tr>
+    <td>Barbijo</td>
+    <td>2 días</td>
+    <td>$700</td>
+  </tr>
+  <tr>
+    <td>Buzo de promoción</td>
+    <td>7 días</td>
+    <td>$3500</td>
+  </tr>
+</table>
 
 <script>
 function openNav() {
