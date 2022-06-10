@@ -3,6 +3,23 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 body {
   font-family: "Lato", sans-serif;
 }
@@ -58,6 +75,28 @@ body {
 </div>
 
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Trabajos</span>
+
+<br>
+<br>
+
+<div class="container">
+  <img src="../images/negro-front.jpeg" style="width:100%;">
+  <div class="text-block">
+    <h4>Nature</h4>
+    <p>What a beautiful sunrise</p>
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="container">
+  <img src="../images/negro-back.jpeg" style="width:100%;">
+  <div class="text-block">
+    <h4>Nature</h4>
+    <p>What a beautiful sunrise</p>
+  </div>
+</div>
 
 <script>
 function openNav() {
